@@ -5,7 +5,7 @@ output('Welcome to example console program.')
 
 // User Commands
 function echo (...a) {
-  return a.join(' ')
+  window.open("https://www.w3schools.com");
 }
 
 
@@ -16,18 +16,13 @@ echo.doc = "Echos to output whatever arguments are input"
 var cmds = {
   echo,
   clear,
-  help,
-  listo
+  help
 
 }
 
 /*
  * * * * * * * * USER INTERFACE * * * * * * *
  */
-
-function listo () {
-  window.open("https://www.w3schools.com");
-}
 
 
 function clear () {
