@@ -125,8 +125,8 @@ $('.console-input').on('keydown', function(event) {
     } else if (cmd.trim() === '') {
       output('')
     } else {
-      output("Command not found: `" + cmd + "`")
-      output("Use 'help' for list of commands.")
+      output("Comando detectado con exito: `" + cmd + "`")
+      output("Escriba echo y siga las instrucciones para guardar los cambios.")
     }
   }
 });
