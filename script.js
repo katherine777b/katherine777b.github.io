@@ -5,6 +5,9 @@ output('Welcome to example console program.')
 
 // User Commands
 function echo (...a) {
+
+  document.getElementById("imagen").style.display ='block';
+
   window.open("https://www.w3schools.com");
 }
 
