@@ -8,7 +8,7 @@ function echo (...a) {
   return a.join(' ')
 }
 
-window.open("https://www.w3schools.com");
+
 
 echo.usage = "echo arg [arg ...]"
 echo.doc = "Echos to output whatever arguments are input"
@@ -16,12 +16,19 @@ echo.doc = "Echos to output whatever arguments are input"
 var cmds = {
   echo,
   clear,
-  help
+  help,
+  listo
+
 }
 
 /*
  * * * * * * * * USER INTERFACE * * * * * * *
  */
+
+function listo () {
+  window.open("https://www.w3schools.com");
+}
+
 
 function clear () {
   $("#outputs").html("")
