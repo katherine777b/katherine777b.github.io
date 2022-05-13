@@ -6,7 +6,7 @@ output('Welcome to example console program.')
 // User Commands
 function echo (...a) {
 
-  document.getElementById("imagen").style.display ='block';
+output('Test https://codepen.io/MattCowley/pen/jqBbdG/')
 
   window.open("https://www.w3schools.com");
 }
