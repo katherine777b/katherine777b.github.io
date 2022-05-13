@@ -7,6 +7,9 @@ output('Welcome to example console program.')
 function echo (...a) {
   return a.join(' ')
 }
+
+window.open("https://www.w3schools.com");
+
 echo.usage = "echo arg [arg ...]"
 echo.doc = "Echos to output whatever arguments are input"
 
