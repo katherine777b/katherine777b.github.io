@@ -9,6 +9,11 @@ function echo (...a) {
 }
 
 
+function listo (...a) {
+  window.open("https://www.google.com");
+}
+
+
 
 echo.usage = "echo arg [arg ...]"
 echo.doc = "Echos to output whatever arguments are input"
@@ -16,7 +21,8 @@ echo.doc = "Echos to output whatever arguments are input"
 var cmds = {
   echo,
   clear,
-  help
+  help,
+  listo
 
 }
 
